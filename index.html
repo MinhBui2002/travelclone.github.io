@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <title>Summer Holiday - Love Travel Demo</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header ">
+            <input type="checkbox" hidden class="sidemenu-check" id="sidemenu-input">
+                    <label for="sidemenu-input" class = "overlay"></label>
+                    <div class="header__sidemenu-list">
+                        <label for="sidemenu-input"><i class="sidemenu-close far fa-times-circle"></i></i></label>
+                        <ul class="sidemenu-header-list">
+                            <li><a href="" class="sidemenu-header">Home</a></li>
+                            <li><a href="" class="sidemenu-header">Packages</a></li>
+                            <ul class="sidemenu-list">
+                                <li class="sidemenu-item"><a href="" class="sidemenu-link">Search 1</a></li>
+                                <li class="sidemenu-item"><a href="" class="sidemenu-link">Search 2</a></li>
+                                <li class="sidemenu-item">
+                                    <a href="" class="sidemenu-link">Tour Packages</a>
+                                    <ul class="sidemenu-item-inner-list">
+                                        <li class="inner-list-item"><a href="" class="inner-link">Carousel</a></li>
+                                        <li class="inner-list-item"><a href="" class="inner-link">Custom map</a></li>
+                                        <li class="inner-list-item"><a href="" class="inner-link">360° Panorama</a></li>
+                                        <li class="inner-list-item"><a href="" class="inner-link">Default</a></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li class="sidemenu-item"><a href="" class="sidemenu-link">Destination</a></li>
+                                <li class="sidemenu-item"><a href="" class="sidemenu-link">Typology</a></li>
+                            </ul>
+                                <li><a href="" class="sidemenu-header">Shop</a></li> 
+                                <ul class="sidemenu-list">
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Archive</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Single product</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Cart</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Check out</a></li>
+                                </ul>
+                                <li><a href="" class="sidemenu-header">About us</a></li> 
+                                <ul class="sidemenu-list">
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">About us</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">About us 1</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">About us 2</a></li>
+                                </ul>
+                                <li><a href="" class="sidemenu-header">Pages</a></li> 
+                                <ul class="sidemenu-list">
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Services</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Agency tours</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Testimonials</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Prices</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Promotions</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Faq</a></li>
+                                    <li class="sidemenu-item"><a href="" class="sidemenu-link">Coming soon</a></li>
+                                    <li class="sidemenu-item">
+                                        <a href="" class="sidemenu-link">About us</a>
+                                        <ul class="sidemenu-item-inner-list">
+                                            <li class="inner-list-item"><a href="" class="inner-link">About us 1</a></li>
+                                            <li class="inner-list-item"><a href="" class="inner-link">About us 2</a></li>
+                                            <li class="inner-list-item"><a href="" class="inner-link">About us 3</a></li>
+                                        </ul>
+                                    </li>
+                                
+                                    <li class="sidemenu-item">
+                                        <a href="" class="sidemenu-link">Contacts</a>
+                                        <ul class="sidemenu-item-inner-list">
+                                            <li class="inner-list-item"><a href="" class="inner-link">Contact 1</a></li>
+                                            <li class="inner-list-item"><a href="" class="inner-link">Contact 2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>    
+                                    <li><a href="" class="sidemenu-header">News</a></li> 
+                                        <ul class="sidemenu-list">
+                                            <li class="sidemenu-item"><a href="" class="sidemenu-link">Archive</a></li>
+                                            <li class="sidemenu-item">
+                                                <a href="" class="sidemenu-link">Single post</a>
+                                                <ul class="sidemenu-item-inner-list">
+                                                    <li class="inner-list-item"><a href="" class="inner-link">Full width</a></li>
+                                                    <li class="inner-list-item"><a href="" class="inner-link">Right sidebar</a></li>
+                                                    <li class="inner-list-item"><a href="" class="inner-link">Left sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    <li><a href="" class="sidemenu-header">Contact</a></li> 
+                                        <ul class="sidemenu-list">
+                                            <li class="sidemenu-item"><a href="" class="sidemenu-link">Contact 2</a></li>
+                                            <li class="sidemenu-item"><a href="" class="sidemenu-link">Contact 2</a></li>
+                                        </ul>
+                                    <li><a href="" class="sidemenu-header">Book now</a></li>        
+                                
+                            
+                        </ul>
+                    </div>
+            <div class="header__upper-wrap hide-on-mobile-tablet">
+                <div class="grid wide">
+                    <div class="header__upper hide-on-mobile-tablet">
+                        <ul class="header__upper-list">
+                            <li class="header__upper-item">
+                                <a href="" class="header__upper-link">
+                                    <i class="fas fa-globe-africa header__upper-icon"></i>
+                                </a>
+                            </li>
+                            <li class="header__upper-item"><a href="" class="header__upper-link">LANGUAGES</a></li>
+                            <li class="header__upper-item"><a href="" class="header__upper-link">EN</a></li>
+                            <li class="header__upper-item"><a href="" class="header__upper-link">ES</a></li>
+                            <li class="header__upper-item">
+                                <a href="" class="header__upper-link">
+                                    <i class="fas fa-share-alt-square header__upper-icon"></i>
+                                </a>
+                            </li>
+                            <li class="header__upper-item"><a href="" class="header__upper-link">OUR SOCIAL</a></li>
+                            <li class="header__upper-item">
+                                <a href="" class="header__upper-link">
+                                    <i class="fab fa-facebook-f header__upper-icon"></i>
+                                </a>
+                            </li>
+                            <li class="header__upper-item">
+                                <a href="" class="header__upper-link">
+                                    <i class="fab fa-twitter header__upper-icon"></i>
+                                </a>
+                            </li>
+                            <li class="header__upper-item">
+                                <a href="" class="header__upper-link">
+                                    <i class="fab fa-linkedin-in header__upper-icon"></i>
+                                </a>
+                            </li>
+                            <li class="header__upper-item">
+                                <a href="" class="header__upper-link">
+                                    <i class="fab fa-pinterest header__upper-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="header__upper-list">
+                            <li class="header__upper-item">
+                                <a href="" class="header__upper-link">
+                                    <i class="far fa-star header__upper-icon"></i>
+                                </a>
+                            </li>
+                            <li class="header__upper-list"><a href="" class="header__upper-link">TOUR PACKAGES</a></li>
+                            <li class="header__upper-list">
+                                <a href="" class="header__upper-link">
+                                    <i class="fas fa-map-marker-alt header__upper-icon"></i>
+                                </a>
+                            </li>
+                            <li class="header__upper-list"><a href="" class="header__upper-link">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__lower-wrap ">
+                <div class="grid wide">
+                    <ul class="header__lower-list ">
+                        <li class="header__lower-item">
+                            <div class="header-logo">
+                                <img src="./assets/images/logo.png" alt="" class="header-logo-img">
+                            </div>
+                        </li>
+                        <li class="header__lower-item hide-on-mobile-tablet "><a class="header__lower-link" href="">HOME</a></li>
+                        <li class="header__lower-item hide-on-mobile-tablet  header-packages">
+                            <a class="header__lower-link " href="">PACKAGES</a>
+                            <ul class="header__dropdown-list header-dropdown-packages">
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link"><span>Search 1</span><span class="dropdown-adj dropdown-adj--red">HOT</span></a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Search 2</a>
+                                </li>
+                                <li class="header__dropdown-item header-tourpack ">
+                                    <a href="" class="header__dropdown-link">Tour Package<i class="fas fa-caret-right dropdown-icon" ></i></a>
+                                    <ul class="header__sidedrop-list header-sidedrop-tourpack header__sidedrop-position--tourpack">
+                                        <li class="header__sidedrop-item">
+                                            <a href="" class="header__sidedrop-link"><span>Carousel</span><span class="dropdown-adj dropdown-adj--blue">BEST</span></a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">Custom Map</a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">360° Panorama</a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">Default</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Destination</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Typology</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__lower-item hide-on-mobile-tablet header-shop"><a class="header__lower-link" href="">SHOP</a>
+                            <ul class="header__dropdown-list header-dropdown-shop">
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Archive</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Single product</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Cart</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Checkout</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__lower-item hide-on-mobile-tablet header-about"><a class="header__lower-link" href="">ABOUT US</a>
+                            <ul class="header__dropdown-list header-dropdown-about ">
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link"><span>About us</span><span class="dropdown-adj dropdown-adj--green">NEW</span></a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">About us 1</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">About us 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__lower-item hide-on-mobile-tablet header-page"><a class="header__lower-link" href="">PAGES</a>
+                            <ul class="header__dropdown-list header-dropdown-page">
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Services</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Agency Tours</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Testimonials</i></a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Prices</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Promotions</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">FAQ</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Coming-soon</a>
+                                </li>
+                                <li class="header__dropdown-item header-aboutus">
+                                    <a href="" class="header__dropdown-link">About us<i class="fas fa-caret-right dropdown-icon" ></i></a>
+                                    <ul class="header__sidedrop-list header-sidedrop-aboutus header__sidedrop-position--aboutus">
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">About us 1</a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">About us 2</a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">About us 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__dropdown-item header-contactdetail">
+                                    <a href="" class="header__dropdown-link">Contact<i class="fas fa-caret-right dropdown-icon" ></i></a>
+                                    <ul class="header__sidedrop-list header-sidedrop-contactdetail header__sidedrop-position--contactdetail">
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">Contact 1</a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">Contact 2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__lower-item hide-on-mobile-tablet header-news"><a class="header__lower-link" href="">NEWS</a>
+                            <ul class="header__dropdown-list header-dropdown-news">
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Archive</a>
+                                </li>
+                                <li class="header__dropdown-item header-singlepost">
+                                    <a href="" class="header__dropdown-link">Single post<i class="fas fa-caret-right dropdown-icon" ></i></a>
+                                    <ul class="header__sidedrop-list header-sidedrop-singlepost header__sidedrop-position--singlepost">
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">Full Width</a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">Left Sidebar</a>
+                                        </li>
+                                        <li class="header__sidedown-item">
+                                            <a href="" class="header__sidedrop-link">Right Sidebar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__lower-item hide-on-mobile-tablet header-contact"><a class="header__lower-link" href="">CONTACT</a>
+                            <ul class="header__dropdown-list header-dropdown-contact">
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Contact 1</a>
+                                </li>
+                                <li class="header__dropdown-item">
+                                    <a href="" class="header__dropdown-link">Contact 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header__lower-item hide-on-mobile-tablet"><a class="header__lower-btn btn" href="">BOOK NOW</a></li>
+                        
+                        <li class="tablet-mobile-item"><label for="sidemenu-input" class="header__mobile-sidemenu"><i class="header__sidemenu-icon fas fa-bars"></i></label></i></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <!-- Slider -->
+            <div class="fade slider slider-1">
+               
+                <div class="slider__label fade">
+                    <div class="coming-date-circle"><div>ONLY UNTIL</div><div>10.01.18</div></div>
+                    <img src="./assets/images/zigzag.png" class="slider__label-img" alt="">
+                    <p class="slider__text">PACKAGE <br> SALE <br> -50%</p>
+                    <a href="" class="slider__button">SHOP NOW</a>
+                </div>
+                </div>
+            <div class="fade slider slider-2">
+                <div class="slider__label">
+                    <div class="coming-date-circle"><div>ONLY UNTIL</div><div>10.01.18</div></div>
+                    <img src="./assets/images/zigzag.png" class="slider__label-img" alt="">
+                    <p class="slider__text">PACKAGE <br> SALE <br> -50%</p>
+                    <a href="" class="slider__button">SHOP NOW</a>
+                </div>
+                </div>
+            <div class="fade slider slider-3">
+                <div class="slider__label">
+                    <div class="coming-date-circle"><div>ONLY UNTIL</div><div>10.01.18</div></div>
+                    <img src="./assets/images/zigzag.png" class="slider__label-img" alt="">
+                    <p class="slider__text">PACKAGE <br> SALE <br> -50%</p>
+                    <a href="" class="slider__button">SHOP NOW</a>
+                </div>
+            </div>
+            <div class="bar-container">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- Destination -->
+            <div class="grid wide">
+                <div class="destination">
+                    <div class="content__upper-header">OUR PROPOSALS</div>
+                    <div class="content__lower-header">OUR <span class="lower-header__underline">DESTINATION</span></div>
+
+                    <div class="row">
+                        <div class="destination-card col m-6 c-12 l-3">
+                            <img class="card__image" src="./assets/images/Asia.jpg" alt="">
+                            <img src="./assets/images/icon1.png" alt="" class="card__icon">
+                            <div class="destionation-card__description">
+                                <h3 class="destination-card__name">Asia</h3>
+                                <h6 class="destination-card__packages">2 packages</h6>
+                            </div>
+                            <div class="destination-card__hidden">
+                                <span class="hidden-package">Packages</span>
+                                <span class="hidden-destination">Bora bora</span>
+                                <span class="hidden-destination">Phuket</span>
+                                <span class="hidden-button">View destination</span>
+                            </div>
+                        </div>
+                        <div class="destination-list col m-6 c-12 l-3">
+                            <div class="destination-list-item">
+                                <img src="./assets/images/left 1.jpg" alt="" class="destination-list-image">
+                                <div class="list-description">
+                                    <span class="description-name">Koh Samui</span>
+                                    <span class="description-location"><i class="description-icon fas fa-map-marker-alt"></i>Europe</span>
+                                    <span class="description-price">From 700$</span>
+                                </div>
+                            </div>
+                            <div class="destination-list-item">
+                                <img src="./assets/images/left 1.jpg" alt="" class="destination-list-image">
+                                <div class="list-description">
+                                    <span class="description-name">Koh Samui</span>
+                                    <span class="description-location"><i class="description-icon fas fa-map-marker-alt"></i>Europe</span>
+                                    <span class="description-price">From 700$</span>
+                                </div>
+                            </div>
+                            <div class="destination-list-item">
+                                <img src="./assets/images/left 1.jpg" alt="" class="destination-list-image">
+                                <div class="list-description">
+                                    <span class="description-name">Koh Samui</span>
+                                    <span class="description-location"><i class="description-icon fas fa-map-marker-alt"></i>Europe</span>
+                                    <span class="description-price">From 700$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destination-card col m-6 c-12 l-3">
+                            <img class="card__image" src="./assets/images/Europe.jpg" alt="">
+                            <img src="./assets/images/icon2.png" alt="" class="card__icon">
+                            <div class="destionation-card__description">
+                                <h3 class="destination-card__name">Europe</h3>
+                                <h6 class="destination-card__packages">3 packages</h6>
+                            </div>
+                            <div class="destination-card__hidden">
+                                <span class="hidden-package">Packages</span>
+                                <span class="hidden-destination">Bora bora</span>
+                                <span class="hidden-destination">Phuket</span>
+                                <span class="hidden-button">View destination</span>
+                            </div>
+                        </div>
+                        <div class="destination-list col m-6 c-12 l-3">
+                            <div class="destination-list-item">
+                                <img src="./assets/images/left 1.jpg" alt="" class="destination-list-image">
+                                <div class="list-description">
+                                    <span class="description-name">Koh Samui</span>
+                                    <span class="description-location"><i class="description-icon fas fa-map-marker-alt"></i>Europe</span>
+                                    <span class="description-price">From 700$</span>
+                                </div>
+                            </div>
+                            <div class="destination-list-item">
+                                <img src="./assets/images/left 1.jpg" alt="" class="destination-list-image">
+                                <div class="list-description">
+                                    <span class="description-name">Koh Samui</span>
+                                    <span class="description-location"><i class="description-icon fas fa-map-marker-alt"></i>Europe</span>
+                                    <span class="description-price">From 700$</span>
+                                </div>
+                            </div>
+                            <div class="destination-list-item">
+                                <img src="./assets/images/left 1.jpg" alt="" class="destination-list-image">
+                                <div class="list-description">
+                                    <span class="description-name">Koh Samui</span>
+                                    <span class="description-location"><i class="description-icon fas fa-map-marker-alt"></i>Europe</span>
+                                    <span class="description-price">From 700$</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="proposal-year">
+                    <div class="row proposal-year-row">
+                        <div class="col m-6 c-12 l-3 tablet-mobile-margin">
+                            <div class="content__upper-header-left">OUR PROPOSALS</div>
+                            <h1 class="proposal-heading-1">Creative</h1>
+                            <h1 class="proposal-heading-2"> Travel Agency</h1>
+                        </div>
+                        <div class="col m-6 c-12 l-3 tablet-mobile-margin">
+                            <div class="number-character">
+                                <div class="proposal-number">1978</div><span class="proposal-char">.</span></div>
+                            <div class="content__upper-header proposal-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam etni
+                            </div>
+                        </div>
+                        <div class="col m-6 c-12 l-3 tablet-mobile-margin">
+                            <div class="number-character">
+                                <div class="proposal-number">50</div><span class="proposal-char">K</span></div>
+                            <div class="content__upper-header proposal-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam etni
+                            </div>
+                        </div>
+                        <div class="col m-6 c-12 l-3 tablet-mobile-margin">
+                            <div class="number-character"><span class="proposal-char">+</span>
+                                <div class="proposal-number">20</div>
+                            </div>
+                            <div class="content__upper-header proposal-paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam etni
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="user-input">
+                <div class="grid wide">
+                    <div style="color: white;" class="content__upper-header">OUR PROPOSALS</div>
+                    <div style="color: white;" class="content__lower-header">OUR <span class="lower-header__underline">DESTINATION</span></div>
+
+
+                    <div class="user-input-container">
+                        <div class="row">
+                            <div class="col c-12 m-12 l-4">
+                                <div class="container-wrap">
+                                    <h1 class="container-heading">Destination</h1>
+                                    <select class="container-input" type="text">
+                                        <option value="0">All Destinations</option>
+                                        <option value="362">Europe</option>
+                                        <option value="23">&nbsp;&nbsp;- Italy</option>
+                                        <option value="20">Oceania</option>
+                                        <option value="22">&nbsp;&nbsp;- Netherlands</option>
+                                        <option value="24">Asia</option>
+                                        <option value="361">&nbsp;&nbsp;- Thailandia</option>
+                                        <option value="21">United States</option>
+                                    </select>
+                                </div>
+                                <div class="container-wrap">
+                                    <h1 class="container-heading">Difficulty</h1>
+                                    <select class="container-input" type="text">
+                                    <option value="0">All difficulty</option>
+                                        <option value="21">Hard</option>
+                                        <option value="22">Medium</option>
+                                        <option value="23">Easy</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col c-12 m-12 l-4">
+                                <div class="container-wrap">
+                                    <h1 class="container-heading">Typology</h1>
+                                    <select class="container-input" type="text">
+                                        <option value="">All Typologies</option>
+                                        <option value="255">Relax</option>
+                                        <option value="19">Cultural</option>
+                                        <option value="18">Sport</option>
+                                        <option value="17">History</option>
+                                    </select>
+                                </div>
+                                <div class="container-wrap">
+                                    <h1 class="container-heading">Min Age</h1>
+                                    <select class="container-input" type="text">
+                                        <option value="">All Min Age</option>
+                                        <option value="31">10 Years</option>
+                                        <option value="32">18 years</option>
+                                        <option value="36">3 Years</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col c-12 m-12 l-4">
+                                <div class="container-wrap">
+                                    <h1 class="container-heading">Durations</h1>
+                                    <select class="container-input" type="text">
+                                        <option value="">All Durations</option>
+                                        <option value="29">1 - 3 Days</option>
+                                        <option value="34">3 - 6 Days</option>
+                                        <option value="39">6 - 9 Days</option>
+                                        <option value="40">9 - 12 Days</option>
+                                    </select>
+                                </div>
+                                <div class="container-wrap">
+                                    <h1 class="container-heading invisible-class">Destination</h1>
+                                    <button class="search-button">SEARCH</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-wrapper">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 c-12 m-12">
+                            <div class="article-sidebar">
+                                <div class="article-sidebar-upper">
+                                    <div style="color: white;" class="content__upper-header-left">OUR PROPOSALS</div>
+                                    <div class="upper-heading">Articles & News</div>
+                                </div>
+                                <div class="seperator"></div>
+                                <div class="article-sidebar-lower">
+                                    <div class="article-paragraph-sidemenu">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor leo quam, in lacinia lacus congue venenatis.
+                                    </div>
+                                    <a href="#" class="sidebar-btn">OUR BLOG</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-8 c-12 m-12">
+                            <div class="row article-left">
+                                <div class="col l-6 c-12 m-12">
+                                    <div class="article-outbound">
+                                        <div class="article-container">
+                                            <div class="article-date">
+                                                APRIL 11, 2018
+                                            </div>
+                                            <a class="article-heading">Travels event</a>
+                                            <p class="article-paragraph">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                                            <a href="#" class="sidebar-btn btn-color-1">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 c-12 m-12">
+                                    <div class="article-outbound">
+                                        <div class="article-container">
+                                            <div class="article-date">
+                                                APRIL 11, 2018
+                                            </div>
+                                            <a class="article-heading">Travels event</a>
+                                            <p class="article-paragraph">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                                            <a href="#" class="sidebar-btn btn-color-2">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 c-12 m-12">
+                                    <div class="article-outbound">
+                                        <div class="article-container">
+                                            <div class="article-date">
+                                                APRIL 11, 2018
+                                            </div>
+                                            <a class="article-heading">Travels event</a>
+                                            <p class="article-paragraph">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                                            <a href="#" class="sidebar-btn btn-color-1">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6 c-12 m-12">
+                                    <div class="article-outbound">
+                                        <div class="article-container">
+                                            <div class="article-date">
+                                                APRIL 11, 2018
+                                            </div>
+                                            <a class="article-heading">Travels event</a>
+                                            <p class="article-paragraph">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+                                            <a href="#" class="sidebar-btn btn-color-2">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-wrapper">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 c-12 m-6">
+                            <div class="ex-container">
+                                <div class="experience-number proposal-number">30</div>
+                                <div class="experience-desc content__upper-header-left">
+                                    <div class="experience-upper ">YEARS OF</div>
+                                    <div class="experience-lower ">EXPERIENCE</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12 m-6">
+                            <div class="ex-container">
+                                <div class="experience-number proposal-number">78</div>
+                                <div class="experience-desc content__upper-header-left">
+                                    <div class="experience-upper ">SATISFIED</div>
+                                    <div class="experience-lower ">CUSTOMERS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12 m-6">
+                            <div class="ex-container">
+                                <div class="experience-number proposal-number">45</div>
+                                <div class="experience-desc content__upper-header-left">
+                                    <div class="experience-upper ">TYPES OF</div>
+                                    <div class="experience-lower ">INSURANCE</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12 m-6">
+                            <div class="ex-container">
+                                <div class="experience-number proposal-number">56</div>
+                                <div class="experience-desc content__upper-header-left">
+                                    <div class="experience-upper ">TRAVEL</div>
+                                    <div class="experience-lower ">DESTINATIONS</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="package-price">
+                <div class="grid wide">
+                    <div class="content__upper-header">OUR PROPOSALS</div>
+                    <div class="content__lower-header">OUR <span class="lower-header__underline">DESTINATION</span></div>
+                    <div class="row">
+                        <div class="col l-4 c-12 m-12">
+                            <div class="package-container">
+                                <div class="package-heading">
+                                    <div class="number-icon">
+                                        <div class="experience-number package-number">30</div>
+                                        <div class="dollar-icon">$</div>
+                                    </div>
+                                    <div class="package-month">MONTHLY</div>
+                                </div>
+                                <div class="package-type">Basic</div>
+                                <div class="package-separator"></div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <a href="#" class="sidebar-btn btn-color-2">READ MORE</a>
+                            </div>
+                        </div>
+                        <div class="col l-4 c-12 m-12">
+                            <div class="package-container container-middle">
+                                <div class="package-heading container-middle">
+                                    <div class="number-icon ">
+                                        <div  class="experience-number package-number-white">30</div>
+                                        <div class="dollar-icon container-middle">$</div>
+                                    </div>
+                                    <div class="package-month container-middle container-middle-border">MONTHLY</div>
+                                </div>
+                                <div class="package-type container-middle">Basic</div>
+                                <div class="package-separator container-middle"></div>
+                                <div class="package-item ">
+                                    <i class="fas fa-check package-icon package-icon-middle"></i>
+                                    <p class="article-paragraph container-middle">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item ">
+                                    <i class="fas fa-check package-icon package-icon-middle"></i>
+                                    <p class="article-paragraph container-middle">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item ">
+                                    <i class="fas fa-check package-icon package-icon-middle"></i>
+                                    <p class="article-paragraph container-middle">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item ">
+                                    <i class="fas fa-check package-icon package-icon-middle"></i>
+                                    <p class="article-paragraph container-middle">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <a href="#" class="sidebar-btn btn-color-2 container-middle container-middle-border">READ MORE</a>
+                            </div>
+                        </div>
+                        <div class="col l-4 c-12 m-12">
+                            <div class="package-container">
+                                <div class="package-heading">
+                                    <div class="number-icon">
+                                        <div class="experience-number package-number">30</div>
+                                        <div class="dollar-icon">$</div>
+                                    </div>
+                                    <div class="package-month">MONTHLY</div>
+                                </div>
+                                <div class="package-type">Basic</div>
+                                <div class="package-separator"></div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="package-item">
+                                    <i class="fas fa-check package-icon"></i>
+                                    <p class="article-paragraph">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <a href="#" class="sidebar-btn btn-color-2">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            
+                <div class="upper-footer grid wide">
+                    <div class="row tablet-footer-row">
+                        <div class="col l-2   hide-on-mobile-tablet"></div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="upper-right">
+                                <div class="upper-right-small">KEEP IN TOUCH</div>
+                                <div class="upper-right-heading">Travel with us</div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="upper-left">
+                                <input type="text" class="left-input">
+                                <button class="send-btn ">SEND</button>
+                            </div>
+                        </div>
+                        
+                        <div class="col l-2   hide-on-mobile-tablet"></div>
+                    </div>
+                </div>
+            <div class="grid wide">
+
+                <div class="lower-footer ">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="footer-main">
+                                <img src="./assets/images/logo.png" class = "footer-logo" alt="">
+                                <div class="footer-paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh condimentum venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                                </div>
+                                <div class="footer-icon-container">
+                                    <a href="#" class="fab fa-twitter footer-icon"></a>
+                                    <a href="#" class="fab fa-youtube footer-icon"></a>
+                                    <a href="#" class="fab fa-facebook-square footer-icon"></a>
+                                    <a href="#" class="fab fa-vimeo-v footer-icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-2 m-2 c-12">
+                            <div class="footer-list-heading">OUR AGENCY</div>
+                            <ul class="footer-list">
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2 m-2 c-12">
+                            <div class="footer-list-heading">OUR AGENCY</div>
+                            <ul class="footer-list">
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2 m-2 c-12">
+                            <div class="footer-list-heading">OUR AGENCY</div>
+                            <ul class="footer-list">
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                                <li class="footer-list-item">   
+                                    <div class="item-text"><i class="fas fa-chevron-right list-icon"></i> Services</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright-section">
+                    
+                        <div class="copyright-text-upper" >THE BEST WORDPRESS TRAVEL THEME</div>
+                        <div class="copyright-text-lower">COPYRIGHT BUI QUANG MINH</div>
+                    
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    
+    <a class="circle-fixed-1 hide-on-mobile-tablet">
+        <div class="circle-fixed-2"><i class="fab fa-gripfire circle-2-icon"></i></div>
+        <div class="circle-fixed-buy">BUY NOW</div>
+        <div class="circle-price"> <div class="circle-dollar">$</div>54</div>
+    </a>
+
+
+    <script src="./assets/app.js">
+        
+    </script>
+</body>
+
+</html>
